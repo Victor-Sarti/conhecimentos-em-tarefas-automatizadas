@@ -19,15 +19,19 @@ Processamento automático com Lambda
 Registro de informações no DynamoDB
 Simulação de ambiente AWS utilizando LocalStack
 
-🧩 Fluxo da Arquitetura
+## Fluxo da Arquitetura
 Amazon S3
    ↓
+   
 Evento de Upload
    ↓
+   
 AWS Lambda
    ↓
+   
 Processamento do Arquivo
    ↓
+   
 Amazon DynamoDB
 
  ## Aprendizados
