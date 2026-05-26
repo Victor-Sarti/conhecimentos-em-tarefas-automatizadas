@@ -19,6 +19,17 @@ Processamento automático com Lambda
 Registro de informações no DynamoDB
 Simulação de ambiente AWS utilizando LocalStack
 
+🧩 Fluxo da Arquitetura
+Amazon S3
+   ↓
+Evento de Upload
+   ↓
+AWS Lambda
+   ↓
+Processamento do Arquivo
+   ↓
+Amazon DynamoDB
+
  ## Aprendizados
 
 Durante o laboratório, aprendi melhor como funciona uma arquitetura serverless orientada a eventos.
@@ -37,3 +48,7 @@ Serverless reduz necessidade de gerenciamento de infraestrutura.
 Eventos automatizados facilitam arquiteturas escaláveis.
 LocalStack ajuda muito em ambientes de desenvolvimento e testes.
 Lambda é extremamente útil para processamento assíncrono.
+
+## Referências
+Documentação oficial da AWS
+Conteúdo prático da DIO
